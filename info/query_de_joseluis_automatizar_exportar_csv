@@ -1,0 +1,1 @@
+db.getCollection('measurements').find({'imsi': '214040101801031' ,'timestamp': {$gt: '2015-06-18 17:55:28.000', $lt: '2015-06-18 17:55:49.000'}})
